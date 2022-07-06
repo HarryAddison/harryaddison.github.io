@@ -1,1 +1,12 @@
-title {background-image: url("/Images/V838 Mon 2.jpg");}
+header h1 {
+            background-image: url("/Images/V838 Mon 2.jpg");
+            width: 100%;
+           }
+
+nav li {
+        background-color: red;
+        }
+
+nav li:hover {
+              background-color: blue;
+              }
