@@ -114,6 +114,10 @@ main.container {
 
 /* Publication entry styling */
 
+.publication {
+  color: #969696
+}
+
 .publication-title {
   font-weight: 600;
   color: #ffffff;
