@@ -44,7 +44,14 @@ body {
   flex-direction: column
 }
 
+.sidebar i.bi {
+  font-size: 1rem;
+  color: #ccc;
+}
 
+.sidebar i.bi:hover {
+  color: #34495e;
+}
 
 /* Main content styling */
 
