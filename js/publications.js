@@ -1,6 +1,7 @@
 // Truncate abstracts to first sentence on load
 window.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.publication-abstract').forEach(abstract => {
+    if (abstract.classList.contains('no-toggle')) return;
     const fullText = abstract.getAttribute('data-full');
     const firstLine = fullText.split('. ')[0] + (fullText.includes('.') ? '...' : '');
     abstract.textContent = firstLine;
