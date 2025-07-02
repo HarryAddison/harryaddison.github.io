@@ -23,22 +23,6 @@ html, body {
 }
 
 
-#sidebar-container {
-  width: 250px;
-  min-width: 250px;
-  background-color: #f8f9fa; /* or your sidebar background */
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow-y: auto;
-  padding-top: 1rem;
-  z-index: 1000;
-  border-right: 1px solid #ddd;
-}
-
-
-
 .flex-grow-1 {
   margin-left: 0px;
   display: flex;
