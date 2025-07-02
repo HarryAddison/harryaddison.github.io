@@ -5,6 +5,8 @@ html, body {
 
 .sidebar {
   background-color: #343a40;
+  width: 250px;
+  height: 100vh;
 }
 
 #sidebar-container {
@@ -16,10 +18,25 @@ html, body {
   top: 0;
   left: 0;
   overflow-y: auto;
+  z-index: 1000;
+  border-right: 1px solid #ddd;
+}
+
+
+#sidebar-container {
+  width: 250px;
+  min-width: 250px;
+  background-color: #f8f9fa; /* or your sidebar background */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
   padding-top: 1rem;
   z-index: 1000;
   border-right: 1px solid #ddd;
 }
+
 
 
 .flex-grow-1 {
