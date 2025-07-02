@@ -21,7 +21,12 @@ a:hover {
   color: #82cfff;
 }
 
-
+.content-container {
+  position: relative;
+  background-color: #2e2f45;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
 
 /* Sidebar styling */
 
@@ -113,12 +118,6 @@ main.container {
 
 
 /* Publication entry styling */
-
-.publication {
-  background-color: #2e2f45;
-  border-radius: 10px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-}
 
 .publication-title {
   font-weight: 600;
