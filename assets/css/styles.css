@@ -100,7 +100,7 @@ main.container {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  border-bottom: 3px solid #27293d;
+  border-bottom: 10px solid #27293d;
 }
 
 .banner .overlay {
