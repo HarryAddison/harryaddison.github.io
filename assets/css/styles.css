@@ -5,14 +5,23 @@ html, body {
 
 .sidebar {
   background-color: #343a40;
-  width: 250px;
-  height: 100vh;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #e9ecef;
+  border-radius: 4px;
 }
 
 #sidebar-container {
-  padding: 0;
-  margin: 0;
   width: 250px;
+  min-width: 250px;
   height: 100vh;
   position: fixed;
   top: 0;
