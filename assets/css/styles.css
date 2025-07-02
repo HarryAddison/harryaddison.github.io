@@ -53,10 +53,15 @@ main.container {
 }
 
 @media (max-width: 768px) {
-  .sidebar {
+  #sidebar-container {
+    position: static;
     width: 100%;
     height: auto;
-    position: relative;
+    border-right: none;
+  }
+
+  .main-content {
+    margin-left: 0;
   }
 
   .flex-grow-1 {
