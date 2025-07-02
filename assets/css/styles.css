@@ -129,6 +129,12 @@ main.container {
 }
 
 
+/* Other styling */
+
+.no-pointer {
+  pointer-events: none;
+}
+
 
 /* Screen size formatting */
 
