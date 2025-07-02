@@ -115,7 +115,9 @@ main.container {
 /* Publication entry styling */
 
 .publication {
-  background-color: #2e2f45
+  background-color: #2e2f45;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
 .publication-title {
@@ -123,15 +125,27 @@ main.container {
   color: #ffffff;
 }
 
+.publication-journal {
+  font-style: italic;
+  color: #dbdbdb;
+  font-weight: 550;
+  margin-bottom: 0.5rem;
+}
+
 .publication-authors {
   font-style: italic;
-  color: #cccccc;
+  color: #dbdbdb;
   margin-bottom: 0.5rem;
 }
 
 .publication-abstract {
+  color: #dbdbdb;
   margin-bottom: 0.5rem;
   transition: all 0.3s ease;
+}
+
+.publication-link {
+  color: #ffffff;
 }
 
 .toggle-abstract {
@@ -143,6 +157,7 @@ main.container {
 
 .toggle-abstract:hover {
   color: #82cfff;
+  background-color: #34364e;
 }
 
 
