@@ -1,8 +1,19 @@
+/* Page formatting */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+/* Sidebar styling */
 
 .sidebar {
   background-color: #343a40;
@@ -32,42 +43,28 @@ html, body {
 }
 
 
+
+/* Main content styling */
+
 .main-content {
   margin-left: 250px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  min-height: 0;
 }
 
 main.container {
   flex-grow: 1;
   overflow-y: auto;
+  padding: 1rem;
+  min-height: 0;
 }
 
 
-.flex-grow-1 {
-  margin-left: 0px;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
-@media (max-width: 768px) {
-  #sidebar-container {
-    position: static;
-    width: 100%;
-    height: auto;
-    border-right: none;
-  }
-
-  .main-content {
-    margin-left: 0;
-  }
-
-  .flex-grow-1 {
-    margin-left: 0;
-  }
-}
+/* Banner styling */
 
 .banner {
   background: url('../images/banner.jpg') no-repeat center center/cover;
@@ -90,6 +87,9 @@ main.container {
   z-index: 2;
 }
 
+
+
+/* Publication entry styling */
 
 .publication-title {
   font-weight: 600;
@@ -115,4 +115,25 @@ main.container {
 
 .toggle-abstract:hover {
   color: #084298;
+}
+
+
+
+/* Screen size formatting */
+
+@media (max-width: 768px) {
+  #sidebar-container {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .flex-grow-1 {
+    margin-left: 0;
+  }
 }
