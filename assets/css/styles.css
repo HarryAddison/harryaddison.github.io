@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .sidebar {
@@ -15,7 +16,7 @@ html, body {
 }
 
 .sidebar a:hover {
-  background-color: #e9ecef;
+  background-color: #152331;
   border-radius: 4px;
 }
 
@@ -33,6 +34,14 @@ html, body {
 
 .main-content {
   margin-left: 250px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main.container {
+  flex-grow: 1;
+  overflow-y: auto;
 }
 
 
@@ -63,12 +72,14 @@ html, body {
   align-items: center;
   justify-content: center;
 }
+
 .banner .overlay {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .banner .container {
   position: relative;
   z-index: 2;
