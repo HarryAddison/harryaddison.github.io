@@ -1,3 +1,30 @@
+body {
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+}
+
+.flex-grow-1 {
+  margin-left: 250px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .flex-grow-1 {
+    margin-left: 0;
+  }
+}
+
 .banner {
   background: url('../images/banner.jpg') no-repeat center center/cover;
   height: 300px;
