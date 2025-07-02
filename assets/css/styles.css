@@ -146,6 +146,7 @@ main.container {
 
 .publication-link {
   color: #ffffff;
+  background-color: #34364e;
 }
 
 .toggle-abstract {
@@ -157,7 +158,6 @@ main.container {
 
 .toggle-abstract:hover {
   color: #82cfff;
-  background-color: #34364e;
 }
 
 
