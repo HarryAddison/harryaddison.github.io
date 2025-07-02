@@ -22,19 +22,32 @@
         </div>
       </header>
 
-      <main class="container mt-5">
-        <h2>Publications</h2>
-        <ul>
-            <li><strong>Title of Paper 1</strong>, Authors, <em>Journal Name</em>, Year</li>
-            <li><strong>Title of Paper 2</strong>, Authors, <em>Conference Name</em>, Year</li>
-        </ul>
+      <main class="container mt-4 flex-grow-1">
+        <div class="publication-list">
+
+          <div class="publication card mb-3 p-3">
+            <h5 class="publication-title">Title of Paper One <small class="text-muted">Journal Name, 2024</small></h5>
+            <p class="publication-authors">Author A, Author B, Author C</p>
+            <p class="publication-abstract truncated" data-full="This is the full abstract text of paper one. It can be quite long, but only the first line shows initially. Clicking 'Show more' reveals the entire abstract content.">This is the full abstract text of paper one. It can be quite long, but only the first line shows initially...</p>
+            <a href="#" class="toggle-abstract">Show more</a>
+          </div>
+
+          <div class="publication card mb-3 p-3">
+            <h5 class="publication-title">Title of Paper Two <small class="text-muted">Another Journal, 2023</small></h5>
+            <p class="publication-authors">Author X, Author Y</p>
+            <p class="publication-abstract truncated" data-full="Full abstract for paper two goes here. Initially truncated, can be expanded by clicking the link.">Full abstract for paper two goes here. Initially truncated, can be expanded by clicking the link...</p>
+            <a href="#" class="toggle-abstract">Show more</a>
+          </div>
+
+          <!-- Add more publications similarly -->
+
+        </div>
       </main>
     </div>
   </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
 <script src="js/sidebar-loader.js"></script>
 
+</body>
 </html>

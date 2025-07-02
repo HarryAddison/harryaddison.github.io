@@ -54,3 +54,28 @@ html, body {
 }
 
 
+.publication-title {
+  font-weight: 600;
+}
+
+.publication-authors {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.publication-abstract {
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.toggle-abstract {
+  cursor: pointer;
+  font-weight: 500;
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.toggle-abstract:hover {
+  color: #084298;
+}
