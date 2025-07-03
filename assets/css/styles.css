@@ -67,7 +67,7 @@ a:hover {
 #sidebar-container .account-icon-img {
   width: 1.4em;
   height: 1.4em;
-  filter: brightness(100%) saturate(10%) contrast(100%);
+  filter: brightness(90%) saturate(10%) contrast(100%);
 }
 
 .sidebar i.bi { /* bootstrap account icon */ 
