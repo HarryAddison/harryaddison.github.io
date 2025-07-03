@@ -64,6 +64,12 @@ a:hover {
   font-size: 1.4rem;
 }
 
+.nav-link.active {
+  background-color: #161f31;
+  color: white !important;
+  border-radius: 6px;
+}
+
 #sidebar-container .account-icon-img {
   width: 1.4em;
   height: 1.4em;
