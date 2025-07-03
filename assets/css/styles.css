@@ -71,7 +71,7 @@ a:hover {
 #sidebar-container .account-icon img {
   width: 1em;
   height: 1em;
-  filter: brightness(10%) saturate(10%) contrast(100%);
+  filter: brightness(100%) saturate(10%) contrast(100%);
 }
 
 .sidebar i.bi {
