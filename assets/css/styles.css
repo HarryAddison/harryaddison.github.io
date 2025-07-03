@@ -64,7 +64,11 @@ a:hover {
 }
 
 .sidebar-name {
-  font-size: 1.4rem
+  font-size: 1.6rem
+}
+
+#sidebar-container .nav-link {
+  font-size: 1.4rem;
 }
 
 #sidebar-container .account-info {
