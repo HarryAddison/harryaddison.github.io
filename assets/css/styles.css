@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #1e1e2f;
+  background-color: #0c1b4d;
   color: #f1f1f1;
 }
 
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .sidebar .nav a:hover {
-  background-color: #3a3c56;
+  background-color: #3a4456;
   border-radius: 6px;
   color: #ffffff
 }
@@ -111,7 +111,7 @@ main.container {
 
 .content-container {
   position: relative;
-  background-color: #2e2f45;
+  background-color: #3a4456;
   border-radius: 10px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   padding: 2rem;
@@ -177,7 +177,7 @@ main.container {
 
 .publication-link {
   color: #ffffff;
-  background-color: #505264;
+  background-color: #3a4456;
   border-color: #dbdbdb
 }
 
