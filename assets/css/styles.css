@@ -9,21 +9,21 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color:#3a3d4d;
+  background-color: #1e1e2f;
   color: #f1f1f1;
 }
 
 a {
-  color: #66b2ff;
+  color: #4aa8ff;
 }
 
 a:hover {
-  color: 	#4a4d68;
+  color: #82cfff;
 }
 
 .content-container {
   position: relative;
-  background-color: #3d3f5c;
+  background-color: #2e2f45;
   border-radius: 10px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
@@ -31,7 +31,7 @@ a:hover {
 /* Sidebar styling */
 
 .sidebar {
-  background-color: #292121;
+  background-color: #27293d;
   color: #f1f1f1
 }
 
@@ -43,7 +43,7 @@ a:hover {
 }
 
 .sidebar a:hover {
-  background-color: #4a4d68;
+  background-color: #3a3c56;
   border-radius: 6px;
   color: #ffffff
 }
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .sidebar i.bi:hover {
-  color: #4a4d68;
+  color: #34495e;
 }
 
 /* Main content styling */
@@ -100,7 +100,7 @@ main.container {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  border-bottom: 10px solid #292121;
+  border-bottom: 10px solid #27293d;
 }
 
 .banner .overlay {
@@ -146,18 +146,18 @@ main.container {
 
 .publication-link {
   color: #ffffff;
-  background-color: #4a4d68;
+  background-color: #34364e;
 }
 
 .toggle-abstract {
   cursor: pointer;
   font-weight: 500;
-  color: #99d0ff;
+  color: #4aa8ff;
   text-decoration: underline;
 }
 
 .toggle-abstract:hover {
-  color: #4a4d68;
+  color: #82cfff;
 }
 
 
