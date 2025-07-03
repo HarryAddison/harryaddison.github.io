@@ -78,6 +78,12 @@ a:hover {
   font-size: 1.1rem;
 }
 
+#sidebar-container .account-icon img {
+  width: 1em;
+  height: 1em;
+  filter: brightness(0) saturate(100%) invert(37%) sepia(78%) saturate(431%) hue-rotate(170deg) brightness(96%) contrast(87%);
+}
+
 .sidebar i.bi {
   font-size: 1rem;
   color: #ccc;
