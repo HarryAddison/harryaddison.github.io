@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #03091b;
+  background-color: #11141d;
   color: #f1f1f1;
 }
 
@@ -65,7 +65,7 @@ a:hover {
 }
 
 #sidebar-container .nav-link.active {
-  background-color: #161f31;
+  background-color: #23325a;
   color: white !important;
   border-radius: 6px;
 }
@@ -185,6 +185,10 @@ main.container {
   color: #ffffff;
   background-color: #3a4456;
   border-color: #dbdbdb
+}
+
+.publication-link:hover {
+  background-color: #23325a;
 }
 
 .toggle-abstract {
