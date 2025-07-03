@@ -9,21 +9,21 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #1e1e2f;
+  background-color: #2b2d3f;
   color: #f1f1f1;
 }
 
 a {
-  color: #4aa8ff;
+  color: #66b2ff;
 }
 
 a:hover {
-  color: #82cfff;
+  color: 	#4a4d68;
 }
 
 .content-container {
   position: relative;
-  background-color: #2e2f45;
+  background-color: #3d3f5c;
   border-radius: 10px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
@@ -31,7 +31,7 @@ a:hover {
 /* Sidebar styling */
 
 .sidebar {
-  background-color: #292121;
+  background-color: #343750;
   color: #f1f1f1
 }
 
@@ -43,7 +43,7 @@ a:hover {
 }
 
 .sidebar a:hover {
-  background-color: #3a3c56;
+  background-color: #4a4d68;
   border-radius: 6px;
   color: #ffffff
 }
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .sidebar i.bi:hover {
-  color: #34495e;
+  color: #4a4d68;
 }
 
 /* Main content styling */
@@ -146,18 +146,18 @@ main.container {
 
 .publication-link {
   color: #ffffff;
-  background-color: #34364e;
+  background-color: #4a4d68;
 }
 
 .toggle-abstract {
   cursor: pointer;
   font-weight: 500;
-  color: #4aa8ff;
+  color: #99d0ff;
   text-decoration: underline;
 }
 
 .toggle-abstract:hover {
-  color: #82cfff;
+  color: #4a4d68;
 }
 
 
