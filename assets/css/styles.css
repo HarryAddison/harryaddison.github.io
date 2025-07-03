@@ -51,7 +51,7 @@ a:hover {
 }
 
 #sidebar-container {
-  width: 250px;
+  width: 350px;
   min-width: 250px;
   height: 100vh;
   position: fixed;
@@ -63,20 +63,13 @@ a:hover {
   flex-direction: column
 }
 
-.sidebar-icon {
-    width: 1rem;
-    height: 1rem;
-    fill: #ccc;
-    margin-right: 0.5rem;
-  }
+.sidebar svg {
+  fill: #ccc;
+}
 
 .sidebar i.bi {
   font-size: 1rem;
   color: #ccc;
-}
-
-.sidebar i.bi:hover {
-  color: #34495e;
 }
 
 .sidebar-avatar {
