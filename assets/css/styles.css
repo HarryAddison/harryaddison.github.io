@@ -112,7 +112,7 @@ main.container {
 
 .banner {
   background: url('../images/banner.jpg') no-repeat center center/cover;
-  height: 500px;
+  height: 300px;
   position: relative;
   display: flex;
   align-items: center;
