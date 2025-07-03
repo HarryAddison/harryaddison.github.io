@@ -21,16 +21,6 @@ a:hover {
   color: #82cfff;
 }
 
-.content-container {
-  position: relative;
-  background-color: #2e2f45;
-  border-radius: 10px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  padding: 4rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 
 
 /* Sidebar styling */
@@ -47,7 +37,7 @@ a:hover {
   text-decoration: none;
 }
 
-.sidebar a:hover {
+.sidebar .nav a:hover {
   background-color: #3a3c56;
   border-radius: 6px;
   color: #ffffff
@@ -81,7 +71,7 @@ a:hover {
 #sidebar-container .account-icon img {
   width: 1em;
   height: 1em;
-  filter: brightness(0) saturate(100%) invert(37%) sepia(78%) saturate(431%) hue-rotate(170deg) brightness(96%) contrast(87%);
+  filter: brightness(1000%) saturate(10%) contrast(100%);
 }
 
 .sidebar i.bi {
@@ -121,6 +111,16 @@ main.container {
   overflow-y: auto;
   padding: 1rem;
   min-height: 0;
+}
+
+.content-container {
+  position: relative;
+  background-color: #2e2f45;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  padding: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 
