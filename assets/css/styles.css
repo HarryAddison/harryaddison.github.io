@@ -63,12 +63,8 @@ a:hover {
   flex-direction: column
 }
 
-#sidebar-container a {
-  font-size: 2rem;
-}
-
-#sidebar-container .nav-link {
-  font-size: 1.4rem;
+.sidebar-name {
+  font-size: 1.4rem
 }
 
 #sidebar-container .account-info {
