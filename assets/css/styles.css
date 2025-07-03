@@ -165,6 +165,7 @@ main.container {
 .publication-link {
   color: #ffffff;
   background-color: #505264;
+  border-color: #dbdbdb
 }
 
 .toggle-abstract {
