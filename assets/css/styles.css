@@ -67,7 +67,7 @@ a:hover {
 #sidebar-container .account-icon-img {
   width: 1.4em;
   height: 1.4em;
-  filter: brightness(90%) saturate(10%) contrast(100%);
+  filter: brightness(70%) saturate(10%) contrast(100%);
 }
 
 .sidebar i.bi { /* bootstrap account icon */ 
@@ -114,9 +114,9 @@ main.container {
   background-color: #2e2f45;
   border-radius: 10px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  padding: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -125,7 +125,7 @@ main.container {
 
 .banner {
   background: url('../images/banner.jpg') no-repeat center center/cover;
-  height: 300px;
+  height: 400px;
   position: relative;
   display: flex;
   align-items: center;
