@@ -63,6 +63,24 @@ a:hover {
   flex-direction: column
 }
 
+#sidebar-container > a span.fs-4 {
+  font-size: 2rem;
+}
+
+#sidebar-container .nav-link {
+  font-size: 1.6rem;
+}
+
+#sidebar-container .d-flex.align-items-center a {
+  font-size: 1.4rem;
+}
+
+#sidebar-container .d-flex.align-items-center i,
+#sidebar-container .d-flex.align-items-center svg {
+  font-size: 1.6rem;
+}
+
+
 .sidebar svg {
   fill: #ccc;
 }
