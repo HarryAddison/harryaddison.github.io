@@ -26,6 +26,9 @@ a:hover {
   background-color: #2e2f45;
   border-radius: 10px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  padding: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 
