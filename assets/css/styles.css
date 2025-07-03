@@ -79,8 +79,8 @@ a:hover {
 }
 
 .rounded-avatar {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #ccc; 
@@ -112,7 +112,7 @@ main.container {
 
 .banner {
   background: url('../images/banner.jpg') no-repeat center center/cover;
-  height: 300px;
+  height: 500px;
   position: relative;
   display: flex;
   align-items: center;
