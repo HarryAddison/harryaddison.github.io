@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #2b2d3f;
+  background-color:#f1f1f1;
   color: #f1f1f1;
 }
 
@@ -31,7 +31,7 @@ a:hover {
 /* Sidebar styling */
 
 .sidebar {
-  background-color: #343750;
+  background-color: #292121;
   color: #f1f1f1
 }
 
