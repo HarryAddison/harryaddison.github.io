@@ -63,6 +63,13 @@ a:hover {
   flex-direction: column
 }
 
+.sidebar-icon {
+    width: 1rem;
+    height: 1rem;
+    fill: #ccc;
+    margin-right: 0.5rem;
+  }
+
 .sidebar i.bi {
   font-size: 1rem;
   color: #ccc;
@@ -86,13 +93,7 @@ a:hover {
   border: 2px solid #ccc; 
 }
 
-.sidebar svg.orcid-icon {
-    width: 1rem;
-    height: 1rem;
-    fill: #ccc;
-    transition: fill 0.3s ease;
-    margin-right: 0.5rem; /* same as me-2 */
-  }
+
 
 /* Main content styling */
 
