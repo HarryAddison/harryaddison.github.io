@@ -31,7 +31,7 @@ a:hover {
 /* Sidebar styling */
 
 .sidebar {
-  background-color: #27293d;
+  background-color: #212529;
   color: #f1f1f1
 }
 
@@ -100,7 +100,7 @@ main.container {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  border-bottom: 10px solid #27293d;
+  border-bottom: 10px solid #212529;
 }
 
 .banner .overlay {
