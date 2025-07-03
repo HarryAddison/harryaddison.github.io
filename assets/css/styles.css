@@ -28,6 +28,8 @@ a:hover {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
+
+
 /* Sidebar styling */
 
 .sidebar {
@@ -69,6 +71,22 @@ a:hover {
 .sidebar i.bi:hover {
   color: #34495e;
 }
+
+.sidebar-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc; /* Optional: subtle border */
+}
+
+
 
 /* Main content styling */
 
