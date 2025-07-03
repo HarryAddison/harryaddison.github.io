@@ -75,12 +75,6 @@ a:hover {
   font-size: 1.1rem;
 }
 
-.sidebar svg {
-  fill: #ccc;
-  width: 1em;
-  height: 1em;
-}
-
 .sidebar i.bi {
   font-size: 1rem;
   color: #ccc;
