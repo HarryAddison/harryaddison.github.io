@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #071236;
+  background-color: #03091b;
   color: #f1f1f1;
 }
 
@@ -33,7 +33,6 @@ a:hover {
 .sidebar a {
   display: block;
   padding: 0.5rem;
-  background-color: #21355a;
   color: #f1f1f1;
   text-decoration: none;
 }
@@ -112,7 +111,7 @@ main.container {
 
 .content-container {
   position: relative;
-  background-color: #29303d;
+  background-color: #161f31;
   border-radius: 10px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   padding: 2rem;
