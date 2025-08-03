@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /sidebar.html
+Allow: /
+Sitemap: https://harryaddison.github.io/sitemap.xml
