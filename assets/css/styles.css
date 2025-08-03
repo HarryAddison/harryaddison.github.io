@@ -203,6 +203,37 @@ main.container {
 }
 
 
+
+
+
+/* Contact entry styling */
+
+.contact-card {
+  background-color: #2e2f45;
+  border-left: 4px solid #4aa8ff;
+  transition: background-color 0.3s ease;
+}
+
+.contact-card:hover {
+  background-color: #3a3c56;
+}
+
+.contact-card h5 {
+  margin-bottom: 0.25rem;
+  color: #ffffff;
+}
+
+.contact-card a {
+  color: #f1f1f1;
+  font-size: 0.95rem;
+}
+
+.contact-card a:hover {
+  color: #82cfff;
+}
+
+
+
 /* Other styling */
 
 .no-pointer {
