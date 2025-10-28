@@ -125,6 +125,33 @@ main.container {
   margin-bottom: 2rem;
 }
 
+.content-container::after {
+  content: "";
+  display: block;
+  clear: both; /* clears floats at the end */
+}
+
+
+
+/* Image styling */
+
+.image-right {
+  float: right;
+  width: 30%;
+  margin: 0 0 1em 1em;
+}
+
+.image-left {
+  float: left;
+  width: 30%;
+  margin: 0 1em 1em 0;
+}
+
+.image-right p,
+.image-left p {
+  font-size: 0.9em;
+  color: #555;
+}
 
 
 /* Banner styling */
