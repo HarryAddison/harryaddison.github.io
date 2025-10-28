@@ -137,14 +137,23 @@ main.container {
 
 .image-right {
   float: right;
-  width: 30%;
+  width: 40%;
   margin: 0 0 1em 1em;
 }
 
 .image-left {
   float: left;
-  width: 30%;
+  width: 40%;
   margin: 0 1em 1em 0;
+}
+
+.image-right img,
+.image-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #3a4456;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .image-right p,
